@@ -1,4 +1,4 @@
-import TopSection from "./components/TopSection/topsection";
+import TopSection from "./components/TopSection/topsection.jsx";
 
 function App() {
   return (

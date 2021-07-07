@@ -1,0 +1,112 @@
+/* *{
+    scroll-snap-type: y mandatory;
+} */
+.main{
+    overflow: hidden;
+}
+.TS-Main{
+    content: '';
+    height: 100vh;
+    width: 100vw;
+    background: #888 url("/src/public/images/image.webp");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* scroll-snap-align: start; */
+}
+.TS-NavBar{
+    position: sticky;
+    top: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 10000;
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 15px 0;
+    color: #fff;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+header.sticky{
+    padding: 15px 100px;
+    background: #000;
+}
+.introText{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.boxes{
+    text-align: center;
+    content: '';
+    height: 200px;
+    width: 200px;
+    background-color: #888;
+    border-radius: 5px;
+    margin: 80px auto;
+}
+.sectionLeft{
+    /* content: ''; */
+    width: 25vw;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    background-color: #222;
+}
+.hide{
+    display: none;
+}
+.TS-Content{
+    /* scroll-snap-align: start; */
+}
+.boxes{
+    content: '';
+    height: 200px;
+    width: 200px;
+    background: #222;
+    margin: 80px auto;
+}
+.test{
+    display: inline-block;
+    position: fixed;
+    top: 50px;
+    color: white;;
+}
